@@ -8,9 +8,11 @@ function App() {
     <div className="App">
 
       <Herosection />
-      <Pizza />
-      <Pizza />
-      <Pizza />
+      <section className="menu-section">
+        <Pizza />
+        <Pizza />
+        <Pizza />
+      </section>
 
       <Footer />
     </div>
